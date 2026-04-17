@@ -16,7 +16,7 @@ def home():
     return jsonify({"mensagem": "API de filmes - Acesse /filmes"})
 
 @app.route("/", methods=["GET"])
-def listar_livros():
+def listar_filmes():
     return jsonify(filmes)
 
 if __name__ == "__main__":
